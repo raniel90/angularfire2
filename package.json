@@ -1,6 +1,6 @@
 {
-  "name": "angularfire2",
-  "version": "4.0.0-rc.1.1",
+  "name": "@raniel90/angularfire2",
+  "version": "4.0.0-rc.1",
   "description": "",
   "main": "bundles/angularfire2.umd.js",
   "module": "index.js",
@@ -26,9 +26,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular/angularfire2.git"
+    "url": "git+https://github.com/raniel90/angularfire2.git"
   },
-  "author": "jeffbcross,davideast",
+  "author": "raniel90",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/angular/angularfire2/issues"
