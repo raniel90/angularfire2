@@ -1,5 +1,5 @@
 {
-  "name": "@raniel90/angularfire2",
+  "name": "raniel90.angularfire2",
   "version": "4.0.0-rc.1",
   "description": "",
   "main": "bundles/angularfire2.umd.js",
@@ -26,14 +26,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raniel90/angularfire2.git"
+    "url": "git+https://github.com/raniel90/angularfire2/tree/promise-bug-fixes"
   },
   "author": "raniel90",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/angular/angularfire2/issues"
+    "url": "https://github.com/raniel90/angularfire2/issues"
   },
-  "homepage": "https://github.com/angular/angularfire2#readme",
+  "homepage": "https://github.com/raniel90/angularfire2#readme",
   "dependencies": {
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
