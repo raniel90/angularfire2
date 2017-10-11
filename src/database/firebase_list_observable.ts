@@ -28,7 +28,7 @@ export class FirebaseListObservable<T> extends Observable<T> {
     return this.$ref.ref.push(val);
   }
 
-  update(item: FirebaseOperation, value: Object): firebase.Promise<void> {
+  update(item: FirebaseOperation, value: Object): Promise<void> {
     return this._checkOperationCases(item, {
       stringCase: () => this.$ref.ref.child(<string>item).update(value),
       firebaseCase: () => (<firebase.database.Reference>item).update(value),
@@ -37,7 +37,7 @@ export class FirebaseListObservable<T> extends Observable<T> {
     });
   }
 
-  remove(item?:FirebaseOperation): firebase.Promise<void> {
+  remove(item?:FirebaseOperation): Promise<void> {
     // if no item parameter is provided, remove the whole list
     if (!item) {
       return this.$ref.ref.remove();
@@ -50,7 +50,7 @@ export class FirebaseListObservable<T> extends Observable<T> {
     });
   }
 
-  _checkOperationCases(item: FirebaseOperation, cases: FirebaseOperationCases) : firebase.Promise<void> {
+  _checkOperationCases(item: FirebaseOperation, cases: FirebaseOperationCases) : Promise<void> {
     if (utils.isString(item)) {
       return cases.stringCase();
     } else if (utils.isFirebaseRef(item)) {

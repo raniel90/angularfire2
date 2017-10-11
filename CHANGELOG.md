@@ -1,3 +1,8 @@
+<a name="4.0.0-rc.1.1"></a>
+# [4.0.0-rc.1.1](https://github.com/angular/angularfire2/compare/4.0.0-rc.1...4.0.0-rc.1.1) (2017-10-11)
+
+
+
 <a name="4.0.0-rc.1"></a>
 # [4.0.0-rc.1](https://github.com/angular/angularfire2/compare/4.0.0-rc.0...v4.0.0-rc.1) (2017-06-02)
 
