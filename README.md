@@ -23,7 +23,7 @@ Status: Beta
 ## Install
 
 ```bash
-npm install firebase angularfire2 --save
+npm install firebase raniel90.angularfire2 --save
 ```
 
 ## Example use:
