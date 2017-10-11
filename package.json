@@ -1,6 +1,6 @@
 {
   "name": "raniel90.angularfire2",
-  "version": "4.0.0-rc.2",
+  "version": "4.0.0-rc.3",
   "description": "",
   "main": "bundles/angularfire2.umd.js",
   "module": "index.js",
@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/raniel90/angularfire2/tree/promise-bug-fixes"
+    "url": "git+https://github.com/raniel90/angularfire2/tree/promise-bug-fixes.git"
   },
   "author": "raniel90",
   "license": "MIT",
