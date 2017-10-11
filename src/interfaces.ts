@@ -11,10 +11,10 @@ export interface FirebaseAppConfig {
 }
 
 export interface FirebaseOperationCases {
-  stringCase: () => firebase.Promise<void>;
-  firebaseCase?: () => firebase.Promise<void>;
-  snapshotCase?: () => firebase.Promise<void>;
-  unwrappedSnapshotCase?: () => firebase.Promise<void>;
+  stringCase: () => Promise<void>;
+  firebaseCase?: () => Promise<void>;
+  snapshotCase?: () => Promise<void>;
+  unwrappedSnapshotCase?: () => Promise<void>;
 }
 
 export interface AFUnwrappedDataSnapshot {
